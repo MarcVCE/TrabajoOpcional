@@ -1,0 +1,28 @@
+{
+  "name": "trabajoopcional",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.1",
+    "apollo-server": "^3.5.0",
+    "express": "^4.17.2",
+    "graphql": "^16.2.0",
+    "graphql-subscriptions": "^2.0.0",
+    "mongodb": "^4.2.2",
+    "subscriptions-transport-ws": "^0.11.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.3"
+  }
+}
